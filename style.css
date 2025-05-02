@@ -1,0 +1,70 @@
+
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.top-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  transition: background-color 0.3s;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333;
+  margin-bottom: 30px;
+  min-width: 200px;
+}
+.counter-value {
+  font-size: 32px;
+  min-width: 40px;
+  text-align: center;
+}
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.color-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  display: none;
+}
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+}
+.active-btn {
+  background-color: #555;
+}

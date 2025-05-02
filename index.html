@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-section">
+    <input type="number" id="numberInput" placeholder="Введите число">
+    <button id="submitBtn">Отправить</button>
+  </div>
+
+  <div class="counter" id="counterBox">
+    <button id="decrease">–</button>
+    <div class="counter-value" id="counterValue">0</div>
+    <button id="increase">+</button>
+  </div>
+
+  <div class="color-picker">
+    <button id="chooseColor">Выбрать цвет</button>
+    <div class="color-options" id="colorOptions">
+      <div class="color-circle" style="background-color: red;" data-color="red"></div>
+      <div class="color-circle" style="background-color: green;" data-color="green"></div>
+      <div class="color-circle" style="background-color: blue;" data-color="blue"></div>
+      <div class="color-circle" style="background-color: yellow;" data-color="yellow"></div>
+      <div class="color-circle" style="background-color: orange;" data-color="orange"></div>
+    </div>
+    <button id="resetColor">Сбросить цвет</button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
